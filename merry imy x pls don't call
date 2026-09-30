@@ -1,0 +1,57 @@
+
+
+lyrics = [
+    "And the toughest part is that we both know",
+    "What happened to you",
+    "Why you're out on your own",
+    "Merry Christmas, please don't call",
+    "So what if I call ",
+    "And you pick up the phone",
+    "And i use this holiday",
+    "To make my way to your ghost",
+    "Or what if your lonely",
+    "And you know i am too",
+    "And i get the chance to say",
+    "Merry Christmas, I miss you",
+
+
+]
+
+index = 0
+
+root = tk.Tk()
+root.title("fck christmas lyrics")
+root.geometry("800x400")
+root.configure(bg="black")
+
+lyrics_label = tk.Label(
+    root,
+    text="",
+    font=("Arial", 24, "bold"),
+    bg="black",
+    fg="#000000",
+    wraplength=700,
+    justify="center"
+)
+lyrics_label.pack(expand=True)
+
+
+def fade_in(step=0):
+    if step <= 255:
+        color = f"#{step:02x}{step:02x}{step:02x}"
+        lyrics_label.config(fg=color)
+        root.after(10, lambda: fade_in(step + 5))
+
+
+def show_lyrics():
+    global index
+
+    if index < len(lyrics):
+        lyrics_label.config(text=lyrics[index], fg="#000000")
+        fade_in()
+        index += 1
+        root.after(4000, show_lyrics)
+
+
+show_lyrics()
+root.mainloop()
