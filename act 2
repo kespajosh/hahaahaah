@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+        <head>
+        <title>My Mini-Profile</title>
+        </head>
+<body>
+        <h1>My Mini-Profile</h1>
+        
+        <h1>Joshua Farinas</h1>
+        <h3>BSCS-1 - Activity 2</h3>
+        <img src="../photo/mirror josh.jpg" width="200" height="200" alt="Image failed"/> 
+
+        <h2>About Me</h2>
+<p>
+Hello, I am <strong>Josh farinas</strong>, a student of <strong>BS COMPUTER SCIENCE-1</strong>.<br>
+I'm interested in technology, music, gaming, and basketball. <br>
+Kapag may free time ako, usually naglalaro ako ng CODM, nakikinig ng music, <br> or gumagawa ng something na nakaka-relax. <br>
+I also enjoy learning new things, especially in programing. It helps me improve my skills. 
+</p>
+
+        <h2>My Personality</h2>
+<p>
+        My favorite color is <strong>black</strong> and my favorite number is <strong>10</strong>. <br>
+        I am a <strong>introvert</strong> person, but I can be <strong>friendly</strong> and <strong>approachable</strong> when I feel comfortable around people. <br>
+        then my favorite food is <strong>chicken</strong> and <strong> ramen. </strong>
+</p>        
+
+<h2>Hobbies</h2>
+<p>
+        <b>Favorite hobby:</b> tulog<br>
+        <b>Favorite quote:</b>  deadline lang pala nag papaalala sakin na may pangarap ako
+</p>
+
+        <h2>My social media</h2>
+<p>
+        <a href="https://www.facebook.com/joshfarinas10"> 
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRo4ir_39O3o1VmiJASJ-aMlch1buZjjvUDODuo3eWoA&s=10" width="200" height="200" alt="Image failed"/> </a> <br>
+
+        <a href="https://www.instagram.com/_jcfhmu/">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4A_Af60aL_XqTwLt40vvzPuWjv3G47EgLMVGZngjbUQ&s=10" width="200" height="200" alt="Image failed"/> </a> <br>
+</p>
+
+<h2>My Favorite Songs</h2>
+        <audio controls>
+        <source src="../Audio/Daniel Padilla - Malay Ko (Lyrics).mp3"> <br>
+</audio> <br>
+        <audio controls>
+                <source src="../Audio/NIKI - Oceans & Engines (Official Lyric Video).mp3">
+        </audio> <br>
+
+<h2>My Favorite Video</h2>
+        <video width="300" height="300" controls>
+        <source src="../video/haha.mp4" type="video/mp4">
+</video>
+
+        </body>
+</html>
