@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Labaratory</title>
+    </head>
+    <body>
+        <h1>Farinas, Joshua C.</h1>
+        <h1>CCCS-101 Labaratory</h1>
+
+        <p>hahahahaha test test</p>
+        <h1>hahahahaha test test</h1>
+        <h2>hahahahaha test test</h2>
+        <h3>hahahahaha test test</h3>
+        <h4>hahahahaha test test <h4>
+        <h5>hahahahaha test test</h5>
+        <h6>hahahahaha test test</h6>
+        
+        <b>hahahahaha test test</b> <br>
+        <strong>hahahahaha test test</strong><br>
+        <i>hahahahaha test test</i><br>
+        <em>hahahahaha test test</em><br>
+        <mark>hahahahaha test test</mark><br>
+        <small>hahahahaha test test</small><br>
+        <del>hahahahaha test test</del><br>
+        <ins>hahahahaha test test</ins><br>
+        <sub>hahahahaha test test</sub><br>
+        <sup>hahahahaha test test</sup><br>
+
+        <a href="">This is my facebook</a> <br>
+        <a href="">This is my instagram</a> <br>
+    <br>
+    <body>
+        <img src=""width="200" height="250" alt="Image Failed">
+        <img src="" width="200" height="250" alt="Image Failed">
+    </body>
+    <br>
+    <audio controls>
+        <source src="audio/Till I Met You - Angeline Quinto (Lyrics).mp3" type="audio/mp3">
+    </audio> <br>
+
+   <a href="https://open.spotify.com/track/2PTzfXh5Ut3hjRrWGyafz6?si=7cf9afde23414d7c" target="_blank">
+        <img src="" width="200" height="200">
+    </a>
+<br>
+    <video width="450" height="350" controls>
+        <source src="" type="video/mp4">
+    </video>
+    
+</html>
