@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Almost, My Always</title>
+</head>
+
+<body>
+
+    <center>
+        <h1>My Almost, My Always</h1>
+        <h2>bon</h2>
+        <p><i>My favorite person and my everyday happiness.</i></p>
+    </center>
+
+    <hr>
+
+    <h2>About Her</h2>
+
+    <p>
+             
+    </p>
+    
+    <hr>
+
+    <h2>Why She's Special to Me</h2>
+
+    <p>
+        
+    </p>
+
+    <hr>
+
+    <h2>My Favorite Picture</h2>
+
+    <img src="Image/1.jpg" width="300">
+    <img src="Image/4.jpg" width="400">
+    
+    <hr>
+
+
+    <h2>A Song That Reminds Me of Her</h2>
+
+    <a href="https://www.youtube.com/watch?v=zRC2J9QFMpw&list=RDzRC2J9QFMpw&start_radio=1"
+       target="_blank">
+        Click Here to Listen to Ikaw
+    </a>
+
+    <hr>
+
+    <h2>Our Picture! (Clickable) </h2>
+
+        <a href="https://www.youtube.com/watch?v=zRC2J9QFMpw&list=RDzRC2J9QFMpw&start_radio=1" target="_blank">
+
+        <img src="Image/5.jpg" width="150" height="200" alt="Our Picture">
+
+    </a>
+
+    <hr>
+
+    <h2>Our Favorite Music</h2>
+
+    <P>
+        Till I Met You
+    </P>
+    <audio controls>
+        <source src="Audio/Till I Met You - Angeline Quinto (Lyrics).mp3">
+       
+    </audio>
+
+    <hr>
+
+    <!-- Video -->
+
+    <h2>Our Memories Together</h2>
+
+    <p>
+       
+    </p>
+
+    <video width="350" height="250" controls>
+        <source src="memories.mp4" type="video/mp4">
+        Your browser does not support video.
+    </video>
+
+    <hr>
+
+    <!-- Conclusion -->
+
+    <center>
+
+        <h2>A Little Message for You </h2>
+
+        <p>
+           
+        </p>
+
+    </center>
+
+</body>
+</html>
