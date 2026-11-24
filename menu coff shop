@@ -1,1 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>Arcadia Coffee Co.</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #F5EBDD;
+    font-family: Georgia, serif;
+    color: #3B1F0E;
+}
+
+.menu-section {
+    padding: 45px 20px;
+}
+
+.menu-board {
+    max-width: 950px;
+    margin: auto;
+    background: #F5EBDD;
+    border: 5px solid #70452B;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(59,31,14,.15);
+}
+
+/* LOGO HEADER */
+
+.menu-header {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #C58B55;
+}
+
+.menu-header img {
+    width: 220px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.menu-header h1 {
+    font-size: 25px;
+    letter-spacing: 5px;
+    color: #3B1F0E;
+}
+
+.menu-header p {
+    font-size: 11px;
+    letter-spacing: 4px;
+    margin-top: 10px;
+    color: #70452B;
+}
+
+/* MENU GRID */
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 22px;
+}
+
+.menu-box {
+    border: 1px solid #A8784E;
+    padding: 15px;
+    margin-bottom: 10px;
+    background: #FBF7F0;
+}
+
+.menu-box h2 {
+    background: #3B1F0E;
+    color: #F5EBDD;
+    text-align: center;
+    padding: 12px;
+    margin: -15px -15px 15px;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+/* CATEGORY PHOTOS */
+
+.menu-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+/* MENU ITEMS */
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    border-bottom: 1px dotted #B99A7B;
+    padding: 11px 0;
+    font-size: 14px;
+}
+
+.menu-item span:last-child {
+    color: #8B542D;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+/* FOOTER */
+
+.menu-footer {
+    text-align: center;
+    border-top: 2px solid #C58B55;
+    margin-top: 25px;
+    padding-top: 20px;
+    color: #70452B;
+    letter-spacing: 2px;
+    line-height: 2;
+}
+
+@media(max-width: 650px) {
+    .menu-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .menu-board {
+        padding: 18px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<section class="menu-section">
+
+<div class="menu-board">
+
+    <!-- LOGO AND NAME -->
+
+    <div class="menu-header">
+
+        <img src="logo.png" alt="Arcadia Coffee Co. Logo">
+
+        <h1>ARCADIA COFFEE CO.</h1>
+
+        <p>COFFEE • FOOD • GOOD MOMENTS</p>
+
+    </div>
+
+    <div class="menu-grid">
+
+        <!-- COFFEE -->
+
+        <div class="menu-box">
+
+            <h2>COFFEE</h2>
+
+            <img class="menu-image"
+            src="https://www.cicchetti-bistro.at/images/categories/cicchetti-cat-getraenkekarte.webp"
+            alt="Real coffee and espresso">
+
+            <div class="menu-item">
+                <span>Americano</span>
+                <span>₱110</span>
+            </div>
+
+            <div class="menu-item">
+                <span>Cafe Latte</span>
+                <span>₱130</span>
+            </div>
+
+            <div class="menu-item">
+                <span>Cappuccino</span>
+                <span>₱135</span>
+            </div>
+
+            <div class="menu-item">
+                <span>Spanish Latte</span>
+                <span>₱145</span>
+            </div>
+
+            <div class="menu-item">
+                <span>Caramel Macchiato</span>
+                <span>₱150</span>
+            </div>
+
+            <div class="menu-item">
+                <span>Mocha Latte</span>
+                <span>₱145</span>
+            </div>
+
+            <div class="menu-item">
+                <span>Vanilla Latte</span>
+                <span>₱140</span>
+            </div>
+
+        </div>
+
+        <!-- NON COFFEE -->
+
+        <div class="menu-box">
+
+            <h2>NON-COFFEE</h2>
+
+            <img class="menu-image"
+            src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=700"
+            alt="Non coffee beverages">
+
+            <div class="menu-item">
+                <span>Matcha Latte</span>
+                <span>₱140</span>
+            </div>
+
+            <div class="menu-item">
+                <span>Chocolate Milk</span>
+                <span>₱125</span>
+            </div>
+
+            <div class="menu-item">
+                <span>Strawberry Milk</span>
+                <span>₱130</span>
+            </div>
+
+            <div class="menu-item">
+                <span>Blueberry Milk</span>
+                <span>₱135</span>
+            </div>
+
+            <div class="menu-item">
+                <span>Cookies & Cream</span>
+                <span>₱145</span>
+            </div>
+
+            <div class="menu-item">
+                <span>Caramel Milk</span>
+                <span>₱135</span>
+            </div>
+
+        </div>
+
+        <!-- PASTA -->
+
+        <div class="menu-box">
+
+            <h2>PASTA</h2>
+
+            <img class="menu-image"
+            src="https://www.olivo.fi/cdn/shop/articles/olivo-resepti-pasta-carbonara-roomalainen-pasta-fabbri_17a0efde-33d7-45db-9221-930a665dfa43.webp?v=1780049467"
+            alt="Real spaghetti carbonara">
+
+            <div class="menu-item">
+                <span>Carbonara</span>
+                <span>₱165</span>
+            </div>
+
+            <div class="menu-item">
+                <span>Spaghetti Bolognese</span>
+                <span>₱160</span>
+            </div>
+
+            <div class="menu-item">
+                <span>Aglio Olio</span>
+                <span>₱150</span>
+            </div>
+
+            <div class="menu-item">
+                <span>Tuna Pasta</span>
+                <span>₱155</span>
+            </div>
+
+            <div class="menu-item">
+                <span>Creamy Pesto</span>
+                <span>₱175</span>
+            </div>
+
+        </div>
+
+        <!-- ICED BLENDED -->
+
+        <div class="menu-box">
+
+            <h2>ICED BLENDED DRINKS</h2>
+
+            <img class="menu-image"
+            src="https://www.cfw.co.uk/site/SCA/cfw-product-images/Monin%20Coffee%20Frappe%20Mix%201.36kg_main-3.jpg"
+            alt="Real coffee frappe">
+
+            <div class="menu-item">
+                <span>Java Chip</span>
+                <span>₱165</span>
+            </div>
+
+            <div class="menu-item">
+                <span>Caramel Frappe</span>
+                <span>₱160</span>
+            </div>
+
+            <div class="menu-item">
+                <span>Mocha Frappe</span>
+                <span>₱160</span>
+            </div>
+
+            <div class="menu-item">
+                <span>Cookies & Cream</span>
+                <span>₱155</span>
+            </div>
+
+            <div class="menu-item">
+                <span>Strawberry Frappe</span>
+                <span>₱150</span>
+            </div>
+
+            <div class="menu-item">
+                <span>Matcha Frappe</span>
+                <span>₱160</span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="menu-footer">
+
+        <h3>ARCADIA COFFEE CO.</h3>
+
+        <p>GOOD COFFEE. GOOD MOMENTS.</p>
+
+        <p>THANK YOU FOR VISITING!</p>
+
+    </div>
+
+</div>
+</section>
+
+</body>
+</html>
